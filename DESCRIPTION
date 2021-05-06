@@ -1,0 +1,21 @@
+Package: mWiseData
+Title: Benchmark LC-MS datasets for validation
+Version: 0.1.0
+Authors@R: 
+    person(given = "Maria",
+           family = "Barranco-Altirriba",
+           role = c("aut", "cre"),
+           email = "maria.barranco@upc.edu")
+Description: mWiseData contains the validation datasets used for validation 
+    in mWISE annotation algorithm.
+    They consist of untargeted LC-MS datasets containing both positive
+    and negativa acquisition modes, as well as, the input peak lists
+    and the reference peak to compound assignations.
+License: GPL (>= 3)
+Encoding: UTF-8
+biocViews: ExperimentData, MassSpectrometryData, RepositoryData
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 3.6)
